@@ -13,7 +13,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * haha
  * @author Tu Anh
  */
 public class ProductPanel extends javax.swing.JPanel {
@@ -218,7 +218,7 @@ ResultSet rs = null;
 
                 int a =pst.executeUpdate();
                 if(a>0){
-                    JOptionPane.showMessageDialog(null, "Add Product Success");
+                    JOptionPane.showMessageDialog(null, "Add Product Success abcdef");
                       dm.removeAllElements();
                      addItemtoList();
                 }else{
